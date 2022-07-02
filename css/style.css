@@ -30,7 +30,6 @@ body {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
 }
 
 .wrapper {
@@ -102,7 +101,6 @@ h6 {
     font-family: "lato";
     text-transform: uppercase;
     font-weight: 900;
-
 }
 
 .img-centered {
@@ -263,9 +261,9 @@ fieldset[disabled] .btn-xl.active {
     color: #fec503;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
     background-color: transparent !important;
     border-bottom: 4px solid #058BCE;
 }
@@ -283,7 +281,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #48AAF1;
 }
 
-.nav > li > a {
+.nav>li>a {
     padding: 10px 12px !important;
 }
 
@@ -436,12 +434,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media (max-width: 450px) {
-
     .intro-text {
-    padding-bottom: 35px;
-    text-align: center;
+        padding-bottom: 35px;
+        text-align: center;
+    }
 }
-}
+
 
 /* 4.0 ==========   SLIDER   ==*/
 
@@ -461,7 +459,8 @@ fieldset[disabled] .btn-xl.active {
     position: absolute;
 }
 
-#myCarousel-one .item, img.slider-image {
+#myCarousel-one .item,
+img.slider-image {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -585,57 +584,62 @@ video {
     animation-delay: 0.4s;
 }
 
-@media (max-width: 1500px){
-
-.carousel-caption {top:18%;}
+@media (max-width: 1500px) {
+    .carousel-caption {
+        top: 18%;
+    }
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1280px) {
+    .carousel-caption {
+        top: 20%;
+    }
+    .intro-text .intro-paragraph {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .intro-text .intro-lead-in {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .intro-text .intro-heading {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .intro-text {
+        padding-bottom: 15px;
+    }
+}
 
-.carousel-caption {top:20%;}
-.intro-text .intro-paragraph {
-    font-size: 15px;
-    margin-top: 40px;
+@media (max-width: 920px) {
+    .carousel-caption {
+        top: 25%;
+    }
+    .intro-text .intro-paragraph {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    .intro-text .intro-lead-in {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .intro-text .intro-heading {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .intro-text {
+        padding-bottom: 10px;
+    }
 }
-.intro-text .intro-lead-in {
-    font-size: 60px;
-    margin-bottom: 20px;
-}
-.intro-text .intro-heading {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.intro-text {
-    padding-bottom: 15px;
-}
-}
-@media (max-width: 920px){
 
-.carousel-caption {top:25%;}
-.intro-text .intro-paragraph {
-    font-size: 12px;
-    margin-top: 30px;
-}
-.intro-text .intro-lead-in {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.intro-text .intro-heading {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-.intro-text {
-    padding-bottom: 10px;
-}
-}
-@media (max-width: 600px){
-.intro-text .intro-lead-in {
-    font-size: 20px;
-    margin-bottom: 0px;
-}
-.carousel-caption .btn {
-    display: none;
-}
+@media (max-width: 600px) {
+    .intro-text .intro-lead-in {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .carousel-caption .btn {
+        display: none;
+    }
 }
 
 
@@ -667,7 +671,10 @@ section#services {
     background-position: center;
     background-size: cover;
 }
-.service {padding: 0px 45px;}
+
+.service {
+    padding: 0px 45px;
+}
 
 .service-heading {
     margin: 25px 0px 15px 0px;
@@ -675,7 +682,6 @@ section#services {
     color: #fff;
     font-weight: 300;
     font-size: 18px;
-
 }
 
 section#services .section-subheading {
@@ -688,7 +694,6 @@ section h2.section-heading {
     text-align: center;
     text-transform: uppercase !important;
     color: #058BCE;
-    
 }
 
 section h3.section-subheading {
@@ -716,7 +721,10 @@ section h3.section-subheading {
 .first-services {
     padding: 45px 0px 5px 0px;
 }
-.second-services { padding: 15px 0px 5px 0px;}
+
+.second-services {
+    padding: 15px 0px 5px 0px;
+}
 
 #services i.fa {
     font-size: 38px;
@@ -905,29 +913,33 @@ section#team {
     float: left;
     left: 11%;
 }
-@media (max-width:450px) {
-.carousel-indicators {
-    bottom: 0px;
-}
-.team-member img {
-    width: 100%;
-}
-.team-member-name {
-    font-size: 25px;
-}
-.text-muted-role {
-    font-size: 19px;
-}
-.team-text-short {
-    font-size: 13px;
-    line-height: 19px;
-}
-.team-member {
-    height: 460px;
-}
-.team-member-bio {padding-top: 0% !important;}
-.social-buttons {padding-top:0px;}
 
+@media (max-width:450px) {
+    .carousel-indicators {
+        bottom: 0px;
+    }
+    .team-member img {
+        width: 100%;
+    }
+    .team-member-name {
+        font-size: 25px;
+    }
+    .text-muted-role {
+        font-size: 19px;
+    }
+    .team-text-short {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .team-member {
+        height: 460px;
+    }
+    .team-member-bio {
+        padding-top: 0% !important;
+    }
+    .social-buttons {
+        padding-top: 0px;
+    }
 }
 
 @media (max-width:989px) {
@@ -962,8 +974,8 @@ section#team {
         float: none;
     }
     .carousel-indicators {
-    bottom: -10px;
-}
+        bottom: -10px;
+    }
     .glyphicon-chevron-right:before {
         content: "\e080";
         font-size: 20px;
@@ -1158,7 +1170,6 @@ section#portfolio {
 .portfolio-wrapper .overlay-subheading {
     font-family: 'Droid Serif', serif;
     text-transform: uppercase;
-    
     font-size: 18px;
 }
 
@@ -1481,7 +1492,6 @@ body {
     background: #266DD1;
     padding: 70px 0 100px 0;
     min-height: 450px;
-
 }
 
 #testimonial {
@@ -1508,7 +1518,6 @@ section#testimonials .section-subheading {
     text-transform: none;
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 7px;
-    
     font-weight: 300;
 }
 
@@ -1548,7 +1557,6 @@ section#testimonials .section-subheading {
 .company-contact {
     padding-top: 20px;
     color: #fff;
-
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     padding-right: 0px !important;
@@ -1556,7 +1564,7 @@ section#testimonials .section-subheading {
 }
 
 #success {
-    padding: 20px 0; 
+    padding: 20px 0;
 }
 
 section#contact {
@@ -1565,11 +1573,12 @@ section#contact {
     background-size: cover;
     padding-bottom: 110px;
     min-height: 900px;
-   box-shadow: none !important;
-  margin-bottom: 0px !important;
-}
+    box-shadow: none !important;
+    margin-bottom: 0px !important;
 }
 
+
+}
 
 }
 section#contact .section-heading {
@@ -1636,15 +1645,13 @@ address {
     font-family: "source sans pro" !important;
     border-radius: 0;
 }
-
-@media (max-width: 990px){
+@media (max-width: 990px) {
     #map-canvas {
-margin-top: 20px;
-}
+        margin-top: 20px;
+    }
 }
 
 /* 13.0 ========  FOOTER  ================*/
-
 .to-top-button {
     position: absolute;
 }
@@ -1669,7 +1676,8 @@ footer {
 }
 .footer-text {
     color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro',
+    sans-serif;
     font-size: 14px;
     line-height: 21px;
     float: left;
@@ -1744,8 +1752,6 @@ ul.social-buttons li a:active {
 }
 
 /* 13.1 ================== Scroll to top =============== */
-
-
 .scroll-up {
     position: fixed;
     display: none;
@@ -1768,14 +1774,12 @@ ul.social-buttons li a:active {
 }
 
 /************                CUSTOMIZER       **************************/
-
-
-
 #theme-settings {
     width: 250px;
     height: 185px;
     display: block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro',
+    sans-serif;
     background: #FFF;
     float: left;
     position: fixed;
