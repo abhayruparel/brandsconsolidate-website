@@ -1,32 +1,29 @@
 <?php
 
+//Import PHPMailer classes into the global namespace
+//These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
-
+//Load Composer's autoloader
+require 'vendor/autoload.php';
 
 $mail = new PHPMailer(true);
 
 try {
- 
-                  
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();                                           
     $mail->Host       = 'smtp.gmail.com';                     
     $mail->SMTPAuth   = true;                                   
-    $mail->Username   = 'workwithmohan@gmail.com';                    
-    $mail->Password   = 'folpsmavgthigije';                             
+    $mail->Username   = 'abhayruparel2000@gmail.com';                    
+    $mail->Password   = getenv("PASSWORD");    
+    echo $mail->Password;                         
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
     $mail->Port       = 465;                                    
 
-  
-    $mail->setFrom('devninja@gmail.com', 'Dev Ninja Youtube');
-
-    $mail->addAddress('whomonugiri@gmail.com');             
+    $mail->setFrom('raj@gmail.com', 'Automated mail');
+    $mail->addAddress('abhayruparel2000@gmail.com');             
 
 
     $mail->isHTML(true);                                 
