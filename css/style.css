@@ -679,13 +679,13 @@ section#services {
 .service-heading {
     margin: 25px 0px 15px 0px;
     text-transform: none;
-    color: #fff;
+    color: #000;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 section#services .section-subheading {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 section h2.section-heading {
@@ -697,7 +697,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: none;
@@ -710,11 +710,11 @@ section h3.section-subheading {
 
 .text-services {
     text-transform: none;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     line-height: 22px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 13px;
+    font-size: 18px;
     padding-bottom: 20px;
 }
 
