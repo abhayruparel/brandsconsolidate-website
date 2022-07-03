@@ -596,14 +596,14 @@ video {
     }
     .intro-text .intro-paragraph {
         font-size: 15px;
-        margin-top: 40px;
+        margin-top: 10px;
     }
     .intro-text .intro-lead-in {
-        font-size: 60px;
+        font-size: 20px;
         margin-bottom: 20px;
     }
     .intro-text .intro-heading {
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
     .intro-text {
@@ -617,15 +617,15 @@ video {
     }
     .intro-text .intro-paragraph {
         font-size: 12px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .intro-text .intro-lead-in {
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
     .intro-text .intro-heading {
-        font-size: 30px;
-        margin-bottom: 10px;
+        font-size: 23px;
+        margin-bottom: 0px;
     }
     .intro-text {
         padding-bottom: 10px;
@@ -634,7 +634,7 @@ video {
 
 @media (max-width: 600px) {
     .intro-text .intro-lead-in {
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 0px;
     }
     .carousel-caption .btn {
@@ -1577,10 +1577,6 @@ section#contact {
     margin-bottom: 0px !important;
 }
 
-
-}
-
-}
 section#contact .section-heading {
     color: #fff !important;
 }
