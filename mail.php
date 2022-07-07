@@ -10,25 +10,29 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
 $mail = new PHPMailer(true);
+$userMailid = $_POST['email'];
+$mailContent = $_POST['message'];
+$phoneNo = $_POST['phone'];
+$name = $_POST['name'];
 
 try {
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();                                           
     $mail->Host       = 'smtp.gmail.com';                     
     $mail->SMTPAuth   = true;                                   
-    $mail->Username   = 'abhayruparel2000@gmail.com';                    
-    $mail->Password   = getenv("PASSWORD");    
+    $mail->Username   = 'abhayruparel2000@gmail.com'; // Sender's or Server email.                   
+    $mail->Password   = getenv("PASSWORD");    // Password of above email.
     echo $mail->Password;                         
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
     $mail->Port       = 465;                                    
 
-    $mail->setFrom('raj@gmail.com', 'Automated mail');
-    $mail->addAddress('abhayruparel2000@gmail.com');             
+    $mail->setFrom('abhayruparel2000@gmail.com', 'Automated mail');
+    $mail->addAddress('abhayruparel2000@gmail.com');    // Receiver/Recipient Email.    
 
 
     $mail->isHTML(true);                                 
-    $mail->Subject = 'Here is the subject'.time();
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+    $mail->Subject = 'New message on website from '. $name . '  :' .time();
+    $mail->Body    = $mailContent;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
