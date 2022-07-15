@@ -22,7 +22,7 @@ try {
     $mail->SMTPAuth   = true;                                   
     $mail->Username   = 'abhayruparel2000@gmail.com'; // Sender's or Server email.                   
     $mail->Password   = getenv("PASSWORD");    // Password of above email.
-    echo $mail->Password;                         
+    // echo $mail->Password;                         
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
     $mail->Port       = 465;                                    
 
