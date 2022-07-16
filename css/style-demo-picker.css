@@ -139,7 +139,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     color: #fff;
     background-color: #266dd2;
-   font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 0;
@@ -207,6 +207,7 @@ fieldset[disabled] .btn-xl.active {
     text-align: center;
     margin: 0 auto;
 }
+
 .choose-demo {
     color: #121212;
     margin-top: 40px;
