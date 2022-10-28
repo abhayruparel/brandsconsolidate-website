@@ -17,21 +17,21 @@ $name = $_POST['name'];
 
 try {
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;
-    $mail->isSMTP();                                           
-    $mail->Host       = 'smtp.gmail.com';                     
-    $mail->SMTPAuth   = true;                                   
+    $mail->isSMTP();
+    $mail->Host       = 'smtp.gmail.com';
+    $mail->SMTPAuth   = true;
     $mail->Username   = 'abhayruparel2000@gmail.com'; // Sender's or Server email.                   
     $mail->Password   = getenv("PASSWORD");    // Password of above email.
     // echo $mail->Password;                         
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
-    $mail->Port       = 465;                                    
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    $mail->Port       = 465;
 
     $mail->setFrom('abhayruparel2000@gmail.com', 'Automated mail');
     $mail->addAddress('abhayruparel2000@gmail.com');    // Receiver/Recipient Email.    
 
 
-    $mail->isHTML(true);                                 
-    $mail->Subject = 'New message on website from '. $name . '  :' .time();
+    $mail->isHTML(true);
+    $mail->Subject = 'New message on website from ' . $name . '  :' . time();
     $mail->Body    = $mailContent;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
