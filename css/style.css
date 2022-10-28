@@ -1569,13 +1569,11 @@ section#testimonials .section-subheading {
 }
 
 section#contact {
-    background-image: url(../img/backgrounds/services-bg-old.jpg);
-    background-position: center;
-    background-size: cover;
     padding-bottom: 110px;
     min-height: 900px;
     box-shadow: none !important;
     margin-bottom: 0px !important;
+    background-color: #222;
 }
 
 section#contact .section-heading {
