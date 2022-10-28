@@ -680,7 +680,7 @@ section#services {
     margin: 25px 0px 15px 0px;
     text-transform: none;
     color: #000;
-    font-weight: 300;
+    font-weight: bolder;
     font-size: 24px;
 }
 
@@ -698,7 +698,7 @@ section h2.section-heading {
 
 section h3.section-subheading {
     font-size: 20px;
-    line-height: 26px;
+    line-height: 36px;
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: none;
     text-align: center;
@@ -716,6 +716,7 @@ section h3.section-subheading {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     padding-bottom: 20px;
+    text-align: left;
 }
 
 .first-services {
@@ -862,10 +863,11 @@ section#team {
 }
 
 .team-text-short {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 21px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 500;
+    font-weight: bold;
+    text-align: left;
 }
 
 .team-member {
@@ -1003,7 +1005,6 @@ section#team {
     .social-buttons {
         padding-left: 0px;
         margin: 0 auto;
-        float: left;
     }
     .team-member img {
         width: 100%;
@@ -1568,7 +1569,7 @@ section#testimonials .section-subheading {
 }
 
 section#contact {
-    background-image: url(../img/backgrounds/contact-img.png);
+    background-image: url(../img/backgrounds/services-bg-old.jpg);
     background-position: center;
     background-size: cover;
     padding-bottom: 110px;
