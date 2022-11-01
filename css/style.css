@@ -429,7 +429,7 @@ fieldset[disabled] .btn-xl.active {
 
 .intro-text .intro-paragraph {
     font-size: 21px;
-    font-family: "verdana", "Droid Serif";
+    font-family: "lato", "Droid Serif";
     margin-top: 70px;
 }
 
@@ -699,7 +699,7 @@ section h2.section-heading {
 section h3.section-subheading {
     font-size: 20px;
     line-height: 36px;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     text-transform: none;
     text-align: center;
     font-weight: 400;
@@ -713,7 +713,7 @@ section h3.section-subheading {
     color: #000;
     font-weight: 400;
     line-height: 22px;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 18px;
     padding-bottom: 20px;
     text-align: left;
@@ -763,7 +763,7 @@ section h3.section-subheading {
     section h3.section-subheading {
         font-size: 14px;
         line-height: 26px;
-        font-family: 'verdana', sans-serif;
+        font-family: 'lato', sans-serif;
         text-transform: none;
         text-align: center;
         font-weight: 400;
@@ -865,7 +865,7 @@ section#team {
 .team-text-short {
     font-size: 17px;
     line-height: 21px;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     font-weight: bold;
     text-align: left;
 }
@@ -886,7 +886,7 @@ section#team {
 }
 
 .bio {
-    font-family: "verdana"
+    font-family: "lato"
 }
 
 .social-buttons {
@@ -897,7 +897,7 @@ section#team {
 
 .text-muted-role {
     font-size: 22px;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     color: #058BCE;
 }
 
@@ -1237,7 +1237,7 @@ ul.filter li a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     font-weight: 500;
 }
 
@@ -1273,19 +1273,19 @@ ul.filter li a:hover {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
 }
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 17px;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
     margin-bottom: 30px;
     margin-top: 0;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
@@ -1375,7 +1375,7 @@ body {
 .price {
     margin-top: 0;
     padding: 0 15px 15px 15px;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     font-weight: 300;
     font-size: 45px;
     color: #fff;
@@ -1416,7 +1416,7 @@ body {
 .pricing ul li {
     padding: 8px 0;
     font-size: 15px;
-    font-family: "verdana"
+    font-family: "lato"
 }
 
 .pricing a.btn-send {
@@ -1426,7 +1426,7 @@ body {
     background-color: #058BCE;
     border-radius: 0;
     color: #fff;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 15px;
     font-weight: 500;
 }
@@ -1517,7 +1517,7 @@ section#testimonials .section-subheading {
     line-height: 21px;
     text-decoration: none;
     text-transform: none;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     padding-top: 7px;
     font-weight: 300;
 }
@@ -1529,7 +1529,7 @@ section#testimonials .section-subheading {
     padding: 10px;
     text-decoration: none;
     text-transform: none;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     font-style: normal;
 }
 
@@ -1558,7 +1558,7 @@ section#testimonials .section-subheading {
 .company-contact {
     padding-top: 20px;
     color: #fff;
-    font-family: 'verdana', sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 18px;
     padding-right: 0px !important;
     padding-left: 0px !important;
@@ -1637,7 +1637,7 @@ address {
     line-height: 33px !important;
 }
 .form-control {
-    font-family: "verdana" !important;
+    font-family: "lato" !important;
     border-radius: 0;
 }
 @media (max-width: 990px) {
@@ -1671,7 +1671,7 @@ footer {
 }
 .footer-text {
     color: #fff;
-    font-family: 'verdana',
+    font-family: 'lato',
     sans-serif;
     font-size: 14px;
     line-height: 21px;
@@ -1773,7 +1773,7 @@ ul.social-buttons li a:active {
     width: 250px;
     height: 185px;
     display: block;
-    font-family: 'verdana',
+    font-family: 'lato',
     sans-serif;
     background: #FFF;
     float: left;
