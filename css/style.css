@@ -711,7 +711,7 @@ section h3.section-subheading {
 .text-services {
     text-transform: none;
     color: #000;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 22px;
     font-family: 'lato', sans-serif;
     font-size: 18px;
@@ -729,7 +729,7 @@ section h3.section-subheading {
 
 #services i.fa {
     font-size: 38px;
-    /* border: 4px solid; */
+    border: 4px solid;
     background: #058BCE;
     width: 80px;
     height: 80px;
