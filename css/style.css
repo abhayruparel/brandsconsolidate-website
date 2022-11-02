@@ -1565,6 +1565,10 @@ section#testimonials .section-subheading {
     padding-left: 0px !important;
 }
 
+.company-contact > a:hover {
+    text-decoration: none;
+}
+
 #success {
     padding: 20px 0;
 }
