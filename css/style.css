@@ -869,11 +869,12 @@ section#team {
     font-family: 'lato', sans-serif;
     font-weight: bold;
     text-align: left;
+    text-transform: none;
 }
 
 .team-member {
     text-align: center;
-    height: 500px;
+    height: 400px;
 }
 
 .team-member h4 {
